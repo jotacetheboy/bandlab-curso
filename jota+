@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Curso BandLab na Prática</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; padding: 0;
+    background: #121212;
+    color: #f0f0f0;
+  }
+  header {
+    background: #1db954; /* verde música */
+    padding: 20px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  nav {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0;
+  }
+  nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  nav a:hover {
+    color: #1db954;
+  }
+  section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    border-bottom: 3px solid #1db954;
+    padding-bottom: 8px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ul li {
+    background: #222;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 6px;
+  }
+  .btn-inscrever {
+    display: inline-block;
+    background: #1db954;
+    color: #121212;
+    font-weight: bold;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  .btn-inscrever:hover {
+    background: #17a143;
+  }
+  footer {
+    background: #222;
+    color: #bbb;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 60px;
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Curso BandLab na Prática</h1>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#conteudo">Conteúdo</a>
+  <a href="#depoimentos">Depoimentos</a>
+  <a href="#inscricao">Inscrição</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+  <h2>Sobre o Curso</h2>
+  <p>O curso BandLab na Prática é para quem quer dominar a produção musical usando o BandLab, uma plataforma gratuita e poderosa para criar, gravar e compartilhar música online. Aprenda desde o básico até técnicas avançadas para produzir suas próprias faixas com qualidade profissional.</p>
+</section>
+
+<section id="conteudo">
+  <h2>Conteúdo Programático</h2>
+  <ul>
+    <li>Módulo 1
